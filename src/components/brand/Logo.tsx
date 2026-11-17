@@ -36,6 +36,6 @@ export function Logo({ variant = "light", className = "h-10 w-auto", priority, a
 
 export function LogoMark({ className = "size-10" }: { className?: string }) {
   return (
-    <Image src="/brand/softinsight-mark.png" alt="" aria-hidden width={256} height={257} sizes="80px" className={className} />
+    <Image src="/brand/softinsight-mark-sm.webp" alt="" aria-hidden width={192} height={193} sizes="80px" className={className} />
   );
 }
